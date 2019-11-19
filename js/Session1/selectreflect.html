@@ -1,0 +1,26 @@
+<html>
+<head>
+<script>
+    function ChangeValue() {
+        //Getting Value
+        var selValue = document.getElementById("selectchoose").value;
+        //var selObj = document.getElementById("selectchoose");
+        //var selValue = selObj.options[selObj.selectedIndex].value;
+        //Setting Value
+        document.getElementById("showselect").value = selValue;
+	
+}
+</script>
+</head>
+<body>
+
+<select id="selectchoose" onchange="ChangeValue()">
+<option value="0">Select Value 0</option>
+<option value="8">Option value 8</option>
+<option value="5">Option value 5</option>
+<option value="4">Option value 4</option>
+</select>
+
+<input type="text" id="showselect" placeholder="get value on option select">
+</body>
+</html>

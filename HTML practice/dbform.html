@@ -1,0 +1,23 @@
+<html>
+<head><title>Registration form</title></head>
+<body>
+
+<p>Fill this form mto register for workshop</p>
+
+<form method="get" action="intermediate.php">
+
+<p> <label> Name:<input name="name" type="text" size="30" maxlength="30" required></label>
+<p><label>Gender:<input type="radio" name="gender" value="M" checked>Male</label>
+<input type="radio" name="gender" value="F" >Female</label>
+<input type="radio" name="gender" value="O" >Other</label>
+<p><label>Course:<input list="course" name="course">
+<datalist id="course" >
+<option value="CSE" selected>CSE</option>
+<option value="MCA">MCA</option>
+</datalist>
+<input type="Submit">
+</form>
+
+</form>
+</body>
+</html>
